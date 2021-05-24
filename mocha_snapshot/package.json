@@ -1,0 +1,21 @@
+{
+  "name": "snap-shot-it-with-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gorest:integration": "mocha __tests__/gorest.integration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snap-shot-it": "^7.9.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "mocha": "^8.4.0"
+  }
+}

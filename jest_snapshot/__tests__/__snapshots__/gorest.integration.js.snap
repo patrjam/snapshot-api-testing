@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/users should create a new user: POST https://gorest.co.in/public-api/users 1`] = `
+Object {
+  "code": 422,
+  "data": Array [
+    Object {
+      "field": "email",
+      "message": "has already been taken",
+    },
+  ],
+  "meta": null,
+}
+`;
+
+exports[`/users should delete user "Shankar Reddy": DELETE https://gorest.co.in/public-api/users/44 1`] = `
+Object {
+  "code": 404,
+  "data": Object {
+    "message": "Resource not found",
+  },
+  "meta": null,
+}
+`;
+
+exports[`/users should list Jane doe: GET https://gorest.co.in/public-api/users/28 1`] = `
+Object {
+  "code": 404,
+  "data": Object {
+    "message": "Resource not found",
+  },
+  "meta": null,
+}
+`;
+
+exports[`/users should list all users: GET https://gorest.co.in/public-api/users 1`] = `
+Object {
+  "code": 200,
+  "data": Array [
+    Object {
+      "created_at": "2021-05-24T03:50:03.749+05:30",
+      "email": "chattopadhyay_lakshman@kovacek.biz",
+      "gender": "Female",
+      "id": 17,
+      "name": "Lakshman Chattopadhyay",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:03.749+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:03.872+05:30",
+      "email": "avantika_tagore@mckenzie.com",
+      "gender": "Male",
+      "id": 24,
+      "name": "Avantika Tagore",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:03.872+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:03.958+05:30",
+      "email": "lai_ahuja_msgr@kohler.biz",
+      "gender": "Female",
+      "id": 29,
+      "name": "Msgr. Lai Ahuja",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:03.958+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:03.980+05:30",
+      "email": "miss_khatri_dhanadeepa@herman.name",
+      "gender": "Male",
+      "id": 31,
+      "name": "Miss Dhanadeepa Khatri",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:03.980+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:03.987+05:30",
+      "email": "varma_atreyee@fisher.info",
+      "gender": "Female",
+      "id": 32,
+      "name": "Atreyee Varma",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:03.987+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.005+05:30",
+      "email": "patil_surya@veum.co",
+      "gender": "Male",
+      "id": 33,
+      "name": "Surya Patil",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T16:50:49.608+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.038+05:30",
+      "email": "asan_drona@stehr.org",
+      "gender": "Female",
+      "id": 34,
+      "name": "Drona Asan",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:04.038+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.047+05:30",
+      "email": "shashi_johar@gleason.biz",
+      "gender": "Male",
+      "id": 35,
+      "name": "Shashi Johar",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:04.047+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.080+05:30",
+      "email": "khanna_acharyasuta_v@mills.com",
+      "gender": "Female",
+      "id": 36,
+      "name": "Acharyasuta Khanna V",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:04.080+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.086+05:30",
+      "email": "tara_achari@dickinson.org",
+      "gender": "Male",
+      "id": 37,
+      "name": "Tara Achari",
+      "status": "Active",
+      "updated_at": "2021-05-24T15:40:31.997+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.097+05:30",
+      "email": "bhagirathi_abbott@wyman.net",
+      "gender": "Female",
+      "id": 38,
+      "name": "Bhagirathi Abbott",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:04.097+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.128+05:30",
+      "email": "marar_bhishma@swaniawski.org",
+      "gender": "Male",
+      "id": 39,
+      "name": "Bhishma Marari",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T16:52:23.397+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.193+05:30",
+      "email": "guneta_himadri@casper.org",
+      "gender": "Female",
+      "id": 43,
+      "name": "Himadri Guneta",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T16:51:28.484+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.232+05:30",
+      "email": "sethi_prayag@ebert.biz",
+      "gender": "Male",
+      "id": 45,
+      "name": "Prayag Sethi",
+      "status": "Active",
+      "updated_at": "2021-05-24T15:38:11.152+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.249+05:30",
+      "email": "khan_dhanalakshmi_ret@okuneva.co",
+      "gender": "Male",
+      "id": 47,
+      "name": "Dhanalakshmi Khan Ret",
+      "status": "Active",
+      "updated_at": "2021-05-24T15:31:49.926+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.297+05:30",
+      "email": "pandey_kali@spinka.org",
+      "gender": "Male",
+      "id": 48,
+      "name": "Kali Pandey",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:04.297+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.315+05:30",
+      "email": "patel_bhamini_fr@lang.org",
+      "gender": "Female",
+      "id": 49,
+      "name": "Fr. Bhamini Patel",
+      "status": "Active",
+      "updated_at": "2021-05-24T16:41:16.161+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.359+05:30",
+      "email": "harita_sen_ganaka@adams-hansen.net",
+      "gender": "Male",
+      "id": 50,
+      "name": "Sen. Harita Ganaka",
+      "status": "Active",
+      "updated_at": "2021-05-24T16:37:57.662+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.373+05:30",
+      "email": "ahuja_niranjan@jones.co",
+      "gender": "Male",
+      "id": 51,
+      "name": "Niranjan Ahuja",
+      "status": "Active",
+      "updated_at": "2021-05-24T17:23:03.611+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:04.412+05:30",
+      "email": "jain_jaya@zulauf-dooley.name",
+      "gender": "Female",
+      "id": 53,
+      "name": "Jaya Jain",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:04.412+05:30",
+    },
+  ],
+  "meta": Object {
+    "pagination": Object {
+      "limit": 20,
+      "page": 1,
+      "pages": 73,
+      "total": 1442,
+    },
+  },
+}
+`;
+
+exports[`/users should list users, who contains "varma": GET https://gorest.co.in/public-api/users?name=varma 1`] = `
+Object {
+  "code": 200,
+  "data": Array [
+    Object {
+      "created_at": "2021-05-24T03:50:03.987+05:30",
+      "email": "varma_atreyee@fisher.info",
+      "gender": "Female",
+      "id": 32,
+      "name": "Atreyee Varma",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:03.987+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:05.089+05:30",
+      "email": "varman_anaadi@luettgen-weimann.biz",
+      "gender": "Female",
+      "id": 91,
+      "name": "Anaadi Varman",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:05.089+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:05.510+05:30",
+      "email": "gajbaahu_varma@bechtelar-bogisich.net",
+      "gender": "Female",
+      "id": 119,
+      "name": "Gajbaahu Varma",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:05.510+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:07.818+05:30",
+      "email": "varman_ramaa@auer-lang.info",
+      "gender": "Male",
+      "id": 260,
+      "name": "Ramaa Varman",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:07.818+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:07.841+05:30",
+      "email": "girik_cpa_varman@stamm.co",
+      "gender": "Female",
+      "id": 261,
+      "name": "Girik Varman CPA",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:07.841+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:08.054+05:30",
+      "email": "varman_ekaksh@heaney.com",
+      "gender": "Male",
+      "id": 276,
+      "name": "Ekaksh Varman",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:08.054+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:08.263+05:30",
+      "email": "aadi_varman@williamson.net",
+      "gender": "Female",
+      "id": 288,
+      "name": "Aadi Varman",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:08.263+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:09.294+05:30",
+      "email": "varman_dr_kanti@murray.co",
+      "gender": "Male",
+      "id": 353,
+      "name": "Dr. Kanti Varman",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:09.294+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:09.567+05:30",
+      "email": "varma_narayan@hirthe-reinger.com",
+      "gender": "Female",
+      "id": 368,
+      "name": "Narayan Varma",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:09.567+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:10.768+05:30",
+      "email": "varman_lakshman@bednar-reichel.org",
+      "gender": "Female",
+      "id": 443,
+      "name": "Lakshman Varman",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:10.768+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:11.116+05:30",
+      "email": "harinarayan_varman_hon_the@ernser-goyette.io",
+      "gender": "Male",
+      "id": 461,
+      "name": "The Hon. Harinarayan Varman",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:11.116+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:11.139+05:30",
+      "email": "esq_varma_padma@treutel.net",
+      "gender": "Female",
+      "id": 462,
+      "name": "Padma Varma Esq.",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:11.139+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:12.072+05:30",
+      "email": "varma_mrs_chapal@goldner.name",
+      "gender": "Male",
+      "id": 514,
+      "name": "Mrs. Chapal Varma",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:12.072+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:12.396+05:30",
+      "email": "varma_ret_bhima@klocko.io",
+      "gender": "Male",
+      "id": 536,
+      "name": "Bhima Varma Ret.",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:12.396+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:13.115+05:30",
+      "email": "abhaidev_varman@beahan-mayer.biz",
+      "gender": "Male",
+      "id": 576,
+      "name": "Abhaidev Varman",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:13.115+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:13.228+05:30",
+      "email": "varma_dhanadeepa@kunde.name",
+      "gender": "Male",
+      "id": 585,
+      "name": "Dhanadeepa Varma",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:13.228+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:14.330+05:30",
+      "email": "varman_goswami@brekke-olson.net",
+      "gender": "Female",
+      "id": 638,
+      "name": "Goswami Varman",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:14.330+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:14.443+05:30",
+      "email": "varma_sarla@crist.info",
+      "gender": "Male",
+      "id": 645,
+      "name": "Sarla Varma",
+      "status": "Inactive",
+      "updated_at": "2021-05-24T03:50:14.443+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:14.770+05:30",
+      "email": "trilochana_varma@west.com",
+      "gender": "Female",
+      "id": 663,
+      "name": "Trilochana Varma",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:14.770+05:30",
+    },
+    Object {
+      "created_at": "2021-05-24T03:50:16.333+05:30",
+      "email": "miss_varma_devdan@emard.com",
+      "gender": "Female",
+      "id": 759,
+      "name": "Miss Devdan Varma",
+      "status": "Active",
+      "updated_at": "2021-05-24T03:50:16.333+05:30",
+    },
+  ],
+  "meta": Object {
+    "pagination": Object {
+      "limit": 20,
+      "page": 1,
+      "pages": 2,
+      "total": 34,
+    },
+  },
+}
+`;
+
+exports[`/users should update user "Jordan Dock": PATCH https://gorest.co.in/public-api/users/2917 1`] = `
+Object {
+  "code": 404,
+  "data": Object {
+    "message": "Resource not found",
+  },
+  "meta": null,
+}
+`;
+
+exports[`/users should update user "Jordan Dock: PUT https://gorest.co.in/public-api/users/2918 1`] = `
+Object {
+  "code": 404,
+  "data": Object {
+    "message": "Resource not found",
+  },
+  "meta": null,
+}
+`;
